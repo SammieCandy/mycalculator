@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Javascript Calculator .js"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>My Calculator</title>
+        <link rel="stylesheet" type="text/css" href="calc2.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Basic Calculator</h1>
+             <div class = "container">   
+                <div class="calculator">
+                    <div class="calculator__display">0</div>
+                        <div class="calculator__keys">
+                        <button data-action="clear" style="background-color: rgb(151, 148, 148); color:black;">AC</button>
+                        <button data-action="delete" style="background-color: rgb(151, 148, 148); color:black;">del</button>
+                        <button class="key--operator" data-action="percent" style="background-color: rgb(151, 148, 148); color:black;">%</button>
+                        <button class="key--operator" data-action="divide" style="background-color: rgba(255, 166, 0, 0.721);">÷</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button class="key--operator" data-action="multiply" style="background-color: rgba(255, 166, 0, 0.721);">x</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button class="key--operator" data-action="subtract" style="background-color: rgba(255, 166, 0, 0.721);">-</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button class="key--operator" data-action="add" style="background-color: rgba(255, 166, 0, 0.721);">+</button>
+                        <button>0</button>
+                        <button>00</button>
+                        <button data-action="decimal">.</button>
+                        <button class="key--operator" data-action="calculate" style="background-color: rgba(255, 166, 0, 0.721);">=</button>
+                        </div>
+                </div>
+            </div>
+        <script src="calc2.js"></script>
+    </body>
+</html>
