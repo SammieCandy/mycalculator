@@ -14,18 +14,19 @@ body {
     margin-left: 500px;
     margin-top: 2em;
     max-width: 15em;
+    margin: auto;
 }
 .calculator__display{
     text-align: right;
     border-radius: 12px;
     background-color: white;
     color:#222222;
-    justify-content:flex-end;
     display: block;
-    align-items: flex-end;
-    width: 10em;
+    width: 13em;
     height: 40px;
     padding-top: 10px;
+    padding-left: 100px;
+    margin: auto;
 }
 
 .calculator__keys {
@@ -65,5 +66,8 @@ h1 {
     margin-top: 20px;
 }
 .container {
-    max-width: 20em;
+    max-width: 10em;
+    margin: auto;
+    background-color: #222222;
+    width: 500px;
 }
